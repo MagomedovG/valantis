@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .App-logo {
@@ -27,7 +29,28 @@
 .App-link {
   color: #61dafb;
 }
-
+li{
+  list-style: none;
+}
+.product_item{
+  /*background-color: #61dafb;*/
+  padding: 30px 20px;
+  width: 30%;
+  margin: 0 auto;
+  border:1px solid #61dafb;
+  margin-bottom: 30px;
+}
+button{
+  padding: 10px;
+  background-color: #282c34;
+  border: 0;
+  border-radius: 5px;
+  color:white;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgba(40, 44, 52, 0.9);
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
